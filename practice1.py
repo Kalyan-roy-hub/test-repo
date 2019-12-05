@@ -60,7 +60,15 @@ print('the sum of first',n,' numbers is:',sum)
 print('the average of first',n,'numbers is:',sum/n)
 
 
+#Wap to find fatorial of any num
 
+def fact(n):
+    result = 1
+    while n>1:
+        result = result * n
+        n=n-1
+    return result
+fact(5)
 
 
 
